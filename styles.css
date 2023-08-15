@@ -26,6 +26,11 @@ body{
 
 .buttons-container{
     display: flex;
+    justify-content: center;
     width: 100%;
     height: 25%;
+}
+
+.buttons-container > button {
+    margin: 5px;
 }
