@@ -33,4 +33,27 @@ body{
 
 .buttons-container > button {
     margin: 5px;
+    min-width: 90px;
+    max-height: 35px;
+    color: white;
+    background-color: #3498DB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.01rem;
+}
+
+.buttons-container > button:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.buttons-container > button:not(:hover) {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.buttons-container > .disabled {
+    background-color: #E5E5E5;
+    cursor: not-allowed;
 }
