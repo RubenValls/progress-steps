@@ -45,16 +45,6 @@ body{
     font-size: 1.01rem;
 }
 
-.buttons-container > button:hover {
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-.buttons-container > button:not(:hover) {
-    opacity: 1;
-    transition: 0.5s;
-}
-
 .buttons-container > .disabled {
     background-color: #E5E5E5;
     cursor: not-allowed;
